@@ -1,0 +1,49 @@
+@import "commons.css";
+
+main {
+	justify-content: space-between;
+	align-items: center;
+	display: grid;
+
+	margin: 1.5rem 0;
+}
+
+section {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+
+	width: 10rem;
+}
+
+section > span {
+	text-align: right;
+	width: 4rem;
+}
+
+.icons {
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	display: grid;
+}
+
+.links {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.links > a {
+	margin: 0 4px;
+}
+
+.icon_button {
+	width: 20px;
+	height: 20px;
+	margin: 2px 6px;
+}
+
+.icon_button img {
+	width: 100%;
+	height: auto;
+}

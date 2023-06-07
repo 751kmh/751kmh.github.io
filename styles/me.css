@@ -1,0 +1,16 @@
+@import "commons.css";
+
+p,
+small {
+    text-align: left !important;
+    width: 100%;
+}
+p {
+    line-height: 1rem;
+    font-weight: 300;
+
+    font-size: 15px !important;
+}
+.content {
+    padding: 10rem;
+}
